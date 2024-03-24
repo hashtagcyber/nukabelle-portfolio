@@ -1,0 +1,51 @@
+baseurl = "https://portfolio.nukabelle.art"
+title = "Art by Nukabelle's Portfolio"
+theme = "creative-portfolio"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "View a sample of our wares, and how we setup our booth"
+  copyright = "&copy;2024 Art By Nukabelle"
+sidebarAbout = [
+  "Someone asked me once, “What got you into drawing?” and immediately I said Bob Ross. You remember that show on PBS, right? I used to love watching him paint beautiful landscapes and as I grew up, I knew I wanted to do the same thing (Minus the big hair. Sorry, Bob.).",
+  "My name is Shell, but you can call me NukaBelle, and I love creating landscapes, characters, cartoons, animals and more. Basically, anything that catches my eye and sparks my imagination — whether from books, movies or video games — it’s all fair game to me."
+]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "nukabelle.art@gmail.com"
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "portfolio/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+  facebook      = "https://www.facebook.com/ArtbyNukabelle/"
+  email         = "nukabelle.art@gmail.com"
+  instagram     = "https://www.instagram.com/artbynukabelle/"
