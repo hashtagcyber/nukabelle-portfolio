@@ -14,8 +14,12 @@ googleAnalytics = ""
   description = "View a sample of our wares, and how we setup our booth"
   copyright = "&copy;2024 Art By Nukabelle"
 sidebarAbout = [
-  "Someone asked me once, “What got you into drawing?” and immediately I said Bob Ross. You remember that show on PBS, right? I used to love watching him paint beautiful landscapes and as I grew up, I knew I wanted to do the same thing (Minus the big hair. Sorry, Bob.).",
-  "My name is Shell, but you can call me NukaBelle, and I love creating landscapes, characters, cartoons, animals and more. Basically, anything that catches my eye and sparks my imagination — whether from books, movies or video games — it’s all fair game to me."
+  "Fine handcrafted eclectic goods including dragon eggs, pocket dimension dragon's eye pendants, and fairy houses.",
+  "Our crewe of steampunk adventurers produce and procure only the finest handcrafted eclectic goods.",
+  "Will your great great great great grandchildren need protection from the French? Buy a Dragon Egg to pass down through the generations just in case!",
+  "Need something sooner? Our Pocket Dimension Dragons Eye Pendants are just the thing! Are your fields failing to fill with bounty? Our fairy houses are guaranteed to attract the ideal garden fey to fertilize your farm!", 
+  "*Disclaimer*: We’re an environmentally friendly troupe - all dragon goods are made from imitation materials.",
+  "Additional information available via sending stone. Just tap the following runes nukabelle.art@gmail.com"
 ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -38,8 +42,8 @@ sidebarAbout = [
   home = true
 
   [[params.navlinks]]
-  name = "About"
-  url = "about/"
+  name = "LinkTree"
+  url = "https://nukabelle.art"
 
   [[params.navlinks]]
   name = "Get in touch"
